@@ -22,10 +22,9 @@ public class SecondActivity extends Activity {
     private int position = 0;
     private Jelo[] meals = new Jelo[] {
             new Jelo("spaghetti.jpg","spaghetti", "Spaghetti with bologneze sauce", "salty meal", 500.0f,250.00f,1.0f,"Spaghetti"),
-            new Jelo("nuggat_cake.jpg", "Nugat Cake", "Cake with a lot of cream", 400.0f, 350.00f,3.0f,"Chocolate cream"),
-            new Jelo("barbecue.png", "Barbecue", "Roasted a few types of meat.", 600.0f,740.35f,4.0f,"Lamb meat, Hamburger")
+            new Jelo("nuggat_cake.jpg", "Nugat Cake", "Cake with a lot of cream", "sweet meal",400.0f, 350.00f,3.0f,"Chocolate cream"),
+            new Jelo("barbecue.png", "Barbecue", "Roasted a few types of meat.", "salty meal", 600.0f,740.35f,4.0f,"Lamb meat, Hamburger")
     };
-
 
 
 

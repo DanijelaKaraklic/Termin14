@@ -30,23 +30,6 @@ public class Jelo {
         this.sastojci = sastojci;
     }
 
-    public Jelo(String naziv, String opisJela, String kategorija, float kalorijskaVrednost, float cena) {
-        this.naziv = naziv;
-        this.opisJela = opisJela;
-        this.kategorija = kategorija;
-        this.kalorijskaVrednost = kalorijskaVrednost;
-        this.cena = cena;
-    }
-
-    public Jelo(String naziv, String opisJela, String kategorija, float kalorijskaVrednost, float cena, float ocena, String sastojci) {
-        this.naziv = naziv;
-        this.opisJela = opisJela;
-        this.kategorija = kategorija;
-        this.kalorijskaVrednost = kalorijskaVrednost;
-        this.cena = cena;
-        this.ocena = ocena;
-        this.sastojci = sastojci;
-    }
 
 
 
